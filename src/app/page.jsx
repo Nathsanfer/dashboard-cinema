@@ -1,9 +1,13 @@
+import Header from "@/components/header";
 import styles from "./page.module.css";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
     <div>
-      <h1>Hello</h1>
+      <Header/>
+
+      <Footer/>
     </div>
   );
 }
