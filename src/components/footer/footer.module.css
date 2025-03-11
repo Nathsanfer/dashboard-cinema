@@ -1,0 +1,25 @@
+.mainFooter {
+    background-color: #1a202c;
+    color: #cbd5e0;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .footerLinks {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .footerLinks a {
+    color: #cbd5e0;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footerLinks a:hover {
+    color: #fff;
+  }
